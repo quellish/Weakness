@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+@import WeakKit;
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    Class announcerClass    = NSClassFromString(@"Announcer");
+    if (announcerClass != nil){
+        id announcer = [[announcerClass alloc] init];
+        [announcer happy];
+    }
+    
     return YES;
 }
 

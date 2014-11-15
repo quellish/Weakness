@@ -7,11 +7,14 @@
 //
 
 #import "Announcer.h"
+@import UIKit;
 
 @implementation Announcer
 
 - (void) happy {
+    UIAlertView *alert  = [[UIAlertView alloc] initWithTitle:@"Framework" message:@"Framework method executed" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
     NSLog(@"Happy");
+    [alert show];
 }
 
 @end

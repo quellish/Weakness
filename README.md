@@ -11,3 +11,6 @@ Doing so is fairly straightforward. The application must *weak link* against the
 
 Once you have done so, you must follow the established guidelines for using weakly linked bundle resources, [classes and symbols](https://developer.apple.com/library/ios/documentation/DeveloperTools/Conceptual/cross_development/Using/using.html#//apple_ref/doc/uid/20002000-SW6).
 
+From:
+[Dynamic Frameworks on iOS 7](http://quellish.tumblr.com/post/103107323582/dynamic-frameworks-on-ios-7)
+

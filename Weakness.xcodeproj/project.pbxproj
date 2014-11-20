@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B61D6C31A1DC5E60069C86A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1B61D6C21A1DC5E60069C86A /* README.md */; };
 		1BF208E519D4CFD300F26634 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF208E419D4CFD300F26634 /* main.m */; };
 		1BF208E819D4CFD300F26634 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF208E719D4CFD300F26634 /* AppDelegate.m */; };
 		1BF208EB19D4CFD300F26634 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF208EA19D4CFD300F26634 /* ViewController.m */; };
@@ -68,6 +69,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B61D6C21A1DC5E60069C86A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1BF208DF19D4CFD300F26634 /* Weakness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weakness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF208E319D4CFD300F26634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BF208E419D4CFD300F26634 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		1BF208D619D4CFD300F26634 = {
 			isa = PBXGroup;
 			children = (
+				1B61D6C21A1DC5E60069C86A /* README.md */,
 				1BF208E119D4CFD300F26634 /* Weakness */,
 				1BF208FB19D4CFD400F26634 /* WeaknessTests */,
 				1BF2090E19D4CFE600F26634 /* WeakKit */,
@@ -399,6 +402,7 @@
 			files = (
 				1BF208EB19D4CFD300F26634 /* ViewController.m in Sources */,
 				1BF208E819D4CFD300F26634 /* AppDelegate.m in Sources */,
+				1B61D6C31A1DC5E60069C86A /* README.md in Sources */,
 				1BF208E519D4CFD300F26634 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -695,6 +699,7 @@
 				1BF2090419D4CFD400F26634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BF2090519D4CFD400F26634 /* Build configuration list for PBXNativeTarget "WeaknessTests" */ = {
 			isa = XCConfigurationList;
@@ -703,6 +708,7 @@
 				1BF2090719D4CFD400F26634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BF2092519D4CFE700F26634 /* Build configuration list for PBXNativeTarget "WeakKit" */ = {
 			isa = XCConfigurationList;
@@ -711,6 +717,7 @@
 				1BF2092719D4CFE700F26634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BF2092919D4CFE700F26634 /* Build configuration list for PBXNativeTarget "WeakKitTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +726,7 @@
 				1BF2092B19D4CFE700F26634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
